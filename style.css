@@ -1,0 +1,110 @@
+ * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f9fafb;
+      color: #333;
+      line-height: 1.6;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #0d47a1;
+      padding: 1rem 2rem;
+      color: white;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      flex-wrap: wrap;
+    }
+    nav h1 {
+      font-size: 1.7rem;
+      font-weight: bold;
+    }
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s, transform 0.3s;
+    }
+    .nav-links a:hover {
+      color: #ffca28;
+      transform: translateY(-2px);
+    }
+    .hero {
+      background: linear-gradient(135deg, #1976d2, #42a5f5);
+      height: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      text-align: center;
+      padding: 0 1rem;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    }
+    .content {
+      max-width: 850px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #0d47a1;
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+    }
+    ul {
+      margin: 1rem 0 2rem 1.5rem;
+    }
+    .cta {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .cta button {
+      background: #0d47a1;
+      color: white;
+      border: none;
+      padding: 0.9rem 2.5rem;
+      font-size: 1.1rem;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .cta button:hover {
+      transform: scale(1.05);
+      background: #1565c0;
+    }
+    footer {
+      background: #263238;
+      color: #cfd8dc;
+      text-align: center;
+      padding: 1.2rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+    @media(max-width: 768px) {
+      .nav-links {
+        flex-direction: column;
+        gap: 0.8rem;
+        margin-top: 1rem;
+      }
+      .hero {
+        font-size: 1.4rem;
+        height: 220px;
+      }
+      .content {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+    }
