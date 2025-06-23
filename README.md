@@ -25,8 +25,8 @@ This project is part of my **Web Development Internship with Cognifyz Technologi
 
 ---
 
-## 📁 Live Demo:
-## 📁 GitHub Link:
+## 📁 Live Demo: https://adityadahake33.github.io/Cogifyz-Level3-Task2/
+## 📁 GitHub Link:https://github.com/AdityaDahake33/Cogifyz-Level3-Task2/
 
 ---
 
